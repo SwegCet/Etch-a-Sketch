@@ -1,0 +1,13 @@
+#container {
+    display:grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16,1fr);
+    gap: 2px;
+    width: 500px;
+    height: 500px;
+}
+
+.grid-item {
+    /*background-color: slategrey;*/
+    border: solid;
+}
